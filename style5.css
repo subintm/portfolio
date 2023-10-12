@@ -1,0 +1,128 @@
+.img1{
+    width: 125px;
+    height: 146px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
+    margin-left: 100px;
+    align-items: center;
+}
+.list{
+    text-decoration: none;
+    display: flex;
+    margin-left: 850px;
+    margin-top: -10px;
+    
+}
+a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    color: red;
+}
+.h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 130px;
+    margin-top: 130px;
+    font-style: italic;
+    
+}
+.s1{
+    color: orange;
+}
+.p1{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 130px;
+    font-style: italic;
+}
+.download{
+    margin-left: 130px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-style: italic;
+}
+.images img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images {
+    position: absolute ;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+    animation: d;
+    animation-duration: 1s;
+
+    
+}
+.images:hover #shape{
+    bottom: 70px;
+}
+.images:hover #girl{
+    left: 40%;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 300px;
+}
+.h3{
+    color: green;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin-top: -30px;
+}
+#img3{
+    width: 500px;
+    height: 250px;
+    background-color: aqua;
+
+}
+.a1{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    margin-left: 740px;
+    margin-top: -50px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+.icons{
+  margin-left: 735px;
+  margin-top: 20px;
+}
+.h4{
+    text-align: center;
+    margin-left: -900px;
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 20px;
+}
+.h5{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    margin-left:-160px ;
+}
